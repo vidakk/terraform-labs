@@ -1,10 +1,14 @@
-loc     = "westeurope"
-tags    = {
-    source  = "citadel"
-    env     = "training"
-}
+loc  = "westeurope"
+
+tags = {
+    source = "citadel"
+    env = "training"
+    }
 
 webapplocs = [ 
     "westeurope",
-    "uksouth"
-    ]
+    "centralindia",
+    "westus2",
+    "australiaeast",
+    "brazilsouth"
+]

@@ -1,6 +1,6 @@
 variable "loc" {
-    description = "Default Azure Region"
-    default     = "westeurope"
+    description = "Default Azure region"
+    default     =   "westeurope"
 }
 
 variable "tags" {
@@ -12,6 +12,6 @@ variable "tags" {
 
 variable "webapplocs" {
     description = "List of locations for web apps"
-    type = "list"
-    default = []
+    type        = "list"
+    default     = []
 }
